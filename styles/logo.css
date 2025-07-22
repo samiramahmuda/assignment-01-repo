@@ -34,6 +34,9 @@
     font-size: 16px;
 }
 /* head style */
+body{
+    background-color: #f5f8ff
+}
 .header {
     background-image: url('../Assets/Hero-bg.png');
     background-position: center;
@@ -55,13 +58,17 @@ nav ul li {
 }
 .banner {
     text-align: center;
-    padding: 250px 260px 100px 260px;
+    padding: 0 260px 100px 260px;
     
+}
+.banner-title{
+    font-size: 65px;
 }
 /* main style */
 main {
     max-width: 1440px;
     margin: 0 auto;
+    
 }
 main section{
      margin-top: 130px;
@@ -72,11 +79,18 @@ main section{
     justify-content: space-between;
     padding: 0 62px 0 62px;
     align-items: center;
+    gap: 250px;
 }
 .action-scene{
     
 }
-.action-title{}
+.action-title{
+    font-size: 42px;
+}
+.action-description {
+    font-size: 24px;
+    color: #252432;
+}
 .pic {
     width: 403px;
     height: 328px;
@@ -84,7 +98,7 @@ main section{
 }
 /* 2nd section */
 .productive {
-    padding: 50px 140px;
+    padding: 50px 80px;
     background-color: #deddf7;
     align-items: center;
     gap: 10px;
@@ -100,13 +114,72 @@ main section{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    /* flex-wrap: wrap; */
+    gap: 40px;
+}
+.sec-02{
+    text-align: center;
 }
 .productive-subtitle {
     font-size: 80px;
     font-weight: bold;
+    margin-bottom: 10px;
     
 }
 .productive-subtitle-descrip{
+   color: #252432;
+   font-size: 20px;
+}
+/* 4th section */
+.touch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: ;
+}
 
+.touch-in {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 70px 0;
+  gap: 150px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  
+}
+
+.get-touch h1{
+  
+  text-align: center;
+  margin-bottom: ;
+  font-size: 97px;
+  color: 000000;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  resize: none;
+  box-sizing: border-box;
+}
+
+
+form button:hover {
+  background-color: #3737e6;
 }
 
